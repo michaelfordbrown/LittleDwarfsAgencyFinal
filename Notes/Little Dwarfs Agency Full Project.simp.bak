@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="9.2" multi-file="no">
+  <meta>
+    <name>Little Dwarfs Agency Full Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type="ErdEntity" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type="ErdEntity" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type="AbstractElementGroup" />
+        <value>68</value>
+      </counter>
+      <counter>
+        <item-type type="ErdRelation" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.ErdItems.ErdEntityAttribute</type>
+        <value>49</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P9a7205a4dbac413483565c120bcf8b6e">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="pf5ba4093444b4022989dbc32677867ad_751728390" name="Model 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>03/14/2017 21:33:34</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="entity-relationship" id="pa9ed67d67b834cf8829f96fb90235547_419861472" name="EntityRelationshipDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/14/2017 21:33:34</creation-date>
+          <change-date>03/14/2017 22:46:33</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di975174283430078613" cid="ENT001" type="erd-entity" name="Invoice" style-class="" visibility="package" change-tracking-state="added" creator="P9a7205a4dbac413483565c120bcf8b6e" creation-date="03/14/2017 21:33:46">
+            <style class="default" />
+            <entity pk-constraint-name="InvoiceId" description="" />
+            <attributes>
+              <attribute uid="a43b80ab0cc434d2ca88527c13b2415fb797" cid="EA001" name="Invoice ID" type="SmallInteger" type-id="Uml.SmallInteger" type-size="" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" auto-increment="true">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a8d04b2c3f25e417b87ad27ff330e3f01719" cid="EA002" name="Agency Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="af7e95705fd3340479234254e2e88ee0714" cid="EA003" name="Agency Address" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a2ef77a6cbc3b4035aacea2862edbedfc38" cid="EA004" name="Agency Telephone Number" type="BigInteger" type-id="Uml.BigInteger" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="aaa045f9d22164b4798bcd7a788e9583e829" cid="EA005" name="Agency Email" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a4f4a7ee5b77947db806814cf1d7810c5710" cid="EA006" name="Agency VAT Regisitered Number" type="BigInteger" type-id="Uml.BigInteger" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a87dcb8edba7d4084b096d89cff030b9a565" cid="EA007" name="Customer Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a119b72c123664ecbacf7e2035462391d620" cid="EA008" name="Customer Address" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ae9f935b6925d4cacb4098facee3afaa3236" cid="EA009" name="Invoice Number" type="Integer" type-id="Uml.Integer" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a2372e54e71c6465abfd2dfea571cd90a188" cid="EA010" name="Invoice Date" type="DateTime" type-id="Uml.DateTime" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="aca8736e997834ddba8f210887f22c37f636" cid="EA011" name="Purchase Order" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="af3053bf52e4b4c5aa196f5161f744535900" cid="EA012" name="Account Reference" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="aa320d4ccd04840c287c0e94a920466b7988" cid="EA041" name="Quantity" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a5dbb241ef3fb4a219d82daf4390b5984364" cid="EA042" name="Description Service User" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a653a75ccc30d472e8a008b1463f920c4875" cid="EA043" name="Description Timesheet List" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a968d219cff804efe9b64ae0b02e67b62708" cid="EA044" name="Description Weekending" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ab9b44baa36744bd89a9b4f28f7e952d33" cid="EA045" name="Unit Price" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a536dbeaf3d994034a2edc02b5231ded9435" cid="EA046" name="Net Amount" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a91fdac0682114be8b27c835a14f1308b851" cid="EA047" name="VAT%" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="add9d1a52a1c74fb19ed5e3a8df1c5795771" cid="EA048" name="VAT" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="aa6c01682698e438b94a52de88bdf0d17595" cid="EA013" name="Payment Details Bank Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ac803e8c51d394f6b904232618079f38f227" cid="EA014" name="Payment Details Sort Code" type="Integer" type-id="Uml.Integer" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ae12823e71c734de3be0358001c29948775" cid="EA015" name="Payment Detials Account Number" type="Integer" type-id="Uml.Integer" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a59e958b5df6443f9bdd6735f46fae97a842" cid="EA016" name="Payment Details Payment Terms" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a62abdc99dbee482c9ac17a16dec682ed234" cid="EA017" name="Total Net Amount" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ac59442f622d641d682c0185ddbc1ded6658" cid="EA018" name="Carriage Net" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a25bd90367b2b4599b6c3530d05b0e4d7346" cid="EA019" name="Total Tax Amount" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a1499174b8e5a4ab4b060a76bc775169226" cid="EA020" name="Invoice Total" type="SmallReal" type-id="Uml.SmallReal" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <indexes />
+          </item>
+          <item id="di519855621632857456" cid="ENT002" type="erd-entity" name="Timesheet" style-class="" visibility="package" change-tracking-state="added" creator="P9a7205a4dbac413483565c120bcf8b6e" creation-date="03/14/2017 22:01:51">
+            <style class="default" />
+            <entity description="" />
+            <attributes>
+              <attribute uid="ad4e1c08ba8424ef0bab5c6de081abc52313" cid="EA021" name="Timesheet ID" type="SmallInteger" type-id="Uml.SmallInteger" type-size="" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a2184db2fe1e647c0bf93e5fdb47618d2305" cid="EA022" name="Agency Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="afc82ba991b04468bb3b4bc968b9c9c08959" cid="EA023" name="Head Office Address" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a0f32feec93c24a9f8179698020f76c52990" cid="EA024" name="Head Office Telephone Numbers" type="BigInteger" type-id="Uml.BigInteger" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a60771a936ed543699fea3d9dc1185a6579" cid="EA025" name="Branch Address" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a23d45b89403c4004b9c56ee0f0950c48918" cid="EA026" name="Branch Telephone Number" type="BigInteger" type-id="Uml.BigInteger" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a5790afeb1adf4a6497c4c36ad8d65da5893" cid="EA027" name="Agency Administration Email Address" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ac0cbd1620ad644c0a4b32fedbb296c9d773" cid="EA028" name="Agency Web Site" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a00ca807bd1234c66996189aa650897bf525" cid="EA029" name="Client Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a1651c77aae4443fcb1b24afb81f2bf8b445" cid="EA030" name="Client Address" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ad49187d32a2c4825b4b542ef32390f8a717" cid="EA031" name="Care Workers Full Name" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a958b633f67cf4d6095123e0e59d9ea8f837" cid="EA032" name="Care Worker Payroll Number" type="Integer" type-id="Uml.Integer" type-size="" foreign-key="false" primary-key="false" nullable="true" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a426a7e1aedd24ff2ad7598a9994ad13a125" cid="EA033" name="Day Of Week" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="afc712d9bafd24257b712090fbc2ded51885" cid="EA034" name="Date" type="DateTime" type-id="Uml.DateTime" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a490bed8a8be043d69902071cc98174f5356" cid="EA035" name="Allocated Hours" type="Integer" type-id="Uml.Integer" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a07bd8b3e91fd45068ac6c3b151ce92cc212" cid="EA036" name="Time In" type="DateTime" type-id="Uml.DateTime" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a5c5689d166e8461381adff5004e1996f12" cid="EA037" name="Time Out" type="DateTime" type-id="Uml.DateTime" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="afe0c80da64224c70ba245171ea26de65933" cid="EA038" name="Actual Service" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="a325ec0fbaadc4ac399b2140740f258bc12" cid="EA039" name="Service User Signature" type="Boolean" type-id="Uml.Boolean" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+              <attribute uid="ad89a5a9f8c404aa8986f898b0d6c29724" cid="EA040" name="Comments" type="String" type-id="Uml.String" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <indexes />
+          </item>
+          <item id="di133484870413581272" cid="REL001" type="erd-relationship" name="timesheet" style-class="" visibility="package" change-tracking-state="added" creator="P9a7205a4dbac413483565c120bcf8b6e" creation-date="03/14/2017 22:28:55" from="di975174283430078613" to="di519855621632857456">
+            <style class="default" />
+            <erd-relation type="Association" multiplicity-from="" multiplicity-to="">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="di692151544516047458" cid="REL002" type="erd-relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P9a7205a4dbac413483565c120bcf8b6e" creation-date="03/14/2017 22:36:42" from="di975174283430078613" to="di519855621632857456">
+            <style class="default" />
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="1..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="di519064972509643003" cid="ENT003" type="erd-entity" name="Invoice Week Summary" style-class="" visibility="package" change-tracking-state="added" creator="P9a7205a4dbac413483565c120bcf8b6e" creation-date="03/14/2017 22:46:33">
+            <style class="default" />
+            <entity description="" />
+            <attributes />
+            <indexes />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di975174283430078613" iid="88a3435022ff4f3889b9292af9f0d079" creation-date="03/14/2017 21:33:46" order-index="0" type="entity">
+            <layout ax="63" ay="7" awidth="369" aheight="497" x="63" y="7" width="369" height="497" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="di519855621632857456" iid="920238bc5a334e1d81c1a795cb9e7da4" creation-date="03/14/2017 22:01:51" order-index="1" type="entity">
+            <layout ax="608" ay="78" awidth="405" aheight="355" x="608" y="78" width="405" height="355" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="di692151544516047458" iid="722a7f35590349c59e1bc395b35b8a43" creation-date="03/14/2017 22:36:42" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="432" y1="256" x2="608" y2="256" start-border-pos="0.375251509054326" end-border-pos="0.874647887323944" name-position="0,0">
+              <points>
+                <point x="432" y="256" />
+                <point x="608" y="256" />
+              </points>
+            </layout>
+            <relation from="di975174283430078613" from-iid="88a3435022ff4f3889b9292af9f0d079" to="di519855621632857456" to-iid="920238bc5a334e1d81c1a795cb9e7da4" />
+          </item>
+          <item id="di519064972509643003" iid="0a250692b24b4aceaa22a91641b5b246" creation-date="03/14/2017 22:46:33" order-index="3" type="entity">
+            <layout ax="291" ay="738" awidth="305" aheight="225" x="291" y="738" width="305" height="225" />
+            <erd-entity show-nullability="true" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
